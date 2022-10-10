@@ -3,3 +3,86 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #000000;
+}
+
+/* 
+font-family: 'Amatic SC', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Silkscreen', cursive;
+
+COLORS PROJECT:
+Black: #000000
+Dark Blue: #14213D
+Orange: #FCA311
+Gray: #E5E5E5
+White: #FFFFFF
+*/
+
+.header {
+  background-color: #14213d;
+  color: #FCA311;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-language {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  align-items: center;
+  display: flex;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.box-menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.menu {
+  background-color: #E5E5E5;
+  border: 2px solid #FCA311;
+  border-radius: 20px;
+  color: #14213d;
+  font-family: 'Silkscreen', cursive;
+  font-size: 16px;
+  margin: 3px;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.menu:hover {
+  background-color: #FCA311;
+  color: #ffffff;
+}
+
+.menu:hover {
+  background-color: #FCA311;
+  color: #ffffff;
+}
+
+.flag {
+  border-radius: 15px;
+  height: 25px;
+  padding: 3px;
+  width: 40px;
+}
+
+@media (max-width: 900px) {
+  header {
+    background-color: rgb(255, 255, 53);
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

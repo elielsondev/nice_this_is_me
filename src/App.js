@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
+  const [ language, setLanguage ] = useState(0);
+
   return (
     <div>
-      <h1>And there we go</h1>
+      <Header language={ language } setLanguage={ setLanguage } />
     </div>
   )
 }
