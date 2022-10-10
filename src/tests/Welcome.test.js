@@ -13,7 +13,7 @@ describe('Testando o component Welcome', () => {
         expect(myName).toBeInTheDocument();
 
         const proffession = screen.getByRole('heading', {
-            name: /desenvolvedor de software \- front\-end/i
+            name: /desenvolvedor de software - front-end/i
         });
         expect(proffession).toBeInTheDocument();
     })
