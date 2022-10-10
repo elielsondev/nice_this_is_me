@@ -39,8 +39,9 @@ White: #FFFFFF
   align-items: center;
   display: flex;
   font-family: 'Amatic SC', cursive;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 800;
+  margin-top: 5px;
 }
 
 .box-menu {
@@ -67,11 +68,6 @@ White: #FFFFFF
   color: #ffffff;
 }
 
-.menu:hover {
-  background-color: #FCA311;
-  color: #ffffff;
-}
-
 .flag {
   border-radius: 15px;
   height: 25px;
@@ -79,10 +75,135 @@ White: #FFFFFF
   width: 40px;
 }
 
-@media (max-width: 900px) {
-  header {
-    background-color: rgb(255, 255, 53);
+#sectionWelcome {
+  display: flex;
+  justify-content: space-around;
+}
+
+#mainWelcome {
+  margin-top: 170px;
+}
+
+#welcome {
+  font-size: 4em;
+  color: #E5E5E5;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: -0.3em;
+}
+
+#nameWelcome {
+  font-size: 4em;
+  color: #FCA311;
+}
+
+#profession {
+  font-size: 1.27em;
+  font-family: 'Silkscreen', cursive;
+  color: #14213d;
+}
+
+#profile {
+  border-radius: 50%;
+  margin-top: 100px;
+  width: 20em;
+}
+
+@media (max-width: 914px) {
+  .header {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  #sectionWelcome {
+    flex-wrap: wrap-reverse;
+  }
+
+  #mainWelcome {
+    margin-top: 50px;
+  }
+
+  #welcome {
+    font-size: 3.5em;
+    color: #E5E5E5;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: -0.3em;
+  }
+  
+  #nameWelcome {
+    font-size: 3.5em;
+    color: #FCA311;
+  }
+  
+  #profession {
+    font-size: 1.1em;
+    font-family: 'Silkscreen', cursive;
+    color: #14213d;
+  }
+
+  #profile {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 15em;
+  }
+}
+
+@media (max-width: 700px) {
+  #profile {
+    margin-top: 20px;
+    width: 13em;
+  }
+
+  #mainWelcome {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 526px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+
+  .box-menu {
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    font-size: 8px;
+    justify-content: center;
+    margin: 2px;
+  }
+
+  #sectionWelcome {
+    flex-wrap: wrap-reverse;
+  }
+
+  #mainWelcome {
+    margin-top: 10px;
+  }
+
+  #welcome {
+    font-size: 2.5em;
+    color: #E5E5E5;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: -0.3em;
+  }
+  
+  #nameWelcome {
+    font-size: 2.3em;
+    color: #FCA311;
+  }
+  
+  #profession {
+    font-size: 0.8em;
+  }
+
+  #profile {
+    width: 12em;
   }
 }
