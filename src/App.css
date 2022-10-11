@@ -27,6 +27,8 @@ White: #FFFFFF
   color: #FCA311;
   display: flex;
   justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
 }
 
 .box-language {
@@ -100,6 +102,7 @@ White: #FFFFFF
   font-size: 1.27em;
   font-family: 'Silkscreen', cursive;
   color: #14213d;
+  background-color:#ffffff;
 }
 
 #profile {
@@ -108,7 +111,65 @@ White: #FFFFFF
   width: 20em;
 }
 
-@media (max-width: 914px) {
+#about {
+  margin-top: 160px;
+}
+
+.lineSpan {
+  visibility:hidden;
+}
+
+.topicsStyle {
+  color: #E5E5E5;
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Silkscreen', cursive;
+  background-color: #FCA311;
+  color: #14213d;
+}
+
+#descriptionAbout {
+  font-family: 'Sacramento', cursive;
+  color: #ffffff;
+  font-size: 2.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 37px;
+  text-align: justify;
+}
+
+#skillArea {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#tec {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  color: #E5E5E5;
+  background-color:#14213d;
+  border-radius: 20px;
+  font-family: 'Silkscreen', cursive;
+}
+
+#tec:hover {
+  background-color: #E5E5E5;
+  color: #14213d;
+}
+
+#imgTec {
+  width: 150px;
+}
+
+#nameTec {
+  font-size: 18px;
+}
+
+@media (max-width: 900px) {
   .header {
     display: flex;
     flex-wrap: wrap;
@@ -126,7 +187,7 @@ White: #FFFFFF
     font-size: 3.5em;
     color: #E5E5E5;
     font-family: 'Sacramento', cursive;
-    margin-bottom: -0.3em;
+    margin-top: 100px;
   }
   
   #nameWelcome {
@@ -142,23 +203,12 @@ White: #FFFFFF
 
   #profile {
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 100px;
     width: 15em;
   }
 }
 
-@media (max-width: 700px) {
-  #profile {
-    margin-top: 20px;
-    width: 13em;
-  }
-
-  #mainWelcome {
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 526px) {
+@media (max-width: 660px) {
   .header {
     display: flex;
     flex-wrap: wrap;
@@ -201,9 +251,38 @@ White: #FFFFFF
   
   #profession {
     font-size: 0.8em;
+    margin-bottom: -50px;
   }
 
   #profile {
     width: 12em;
+    margin-bottom: -70px;
+  }
+
+  #whoIamAbout {
+    font-size: 1.3em;
+  }
+
+  #descriptionAbout {
+    font-size: 1.5em;
+    line-height: 25px;
+  }
+
+  #skillArea {
+    justify-content: center;
+  }
+
+  #imgTec {
+    width: 90px;
+  }
+
+  #nameTec {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 340px) {
+  body {
+    width: 340px;
   }
 }

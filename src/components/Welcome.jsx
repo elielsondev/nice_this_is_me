@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../APIFAKE';
 import '../App.css';
-import MyPhoto from '../Elielson.jpg';
+import MyPhoto from './images/Elielson.jpg';
 
 function Welcome({ language }) {
   return (

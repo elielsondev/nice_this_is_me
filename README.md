@@ -21,8 +21,10 @@
   E não podia faltar o teste com o React Testing Library e o estilo utilizando o CSS e o Bootstrap.
   
 ### Welcome
+
   No componente Welcome:
   Inclui uma mensagem de apresentação e logo a baixo o meu nome e minha área de atuação que se posiciona ao lado esquerdo e a minha foto ao lado direito.
+  E não podia faltar o teste com o React Testing Library e o estilo utilizando o CSS e o Bootstrap.
 
   *Obs: Com a responsividade existem resoluções onde a minha foto fica acima e a apresentação com o meu nome ficam abaixo da foto.*
 

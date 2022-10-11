@@ -14,13 +14,13 @@ function Header({ language, setLanguage }) {
       <h1 className='name'>{data[language].name}</h1>
       
       <nav className='box-menu'>
-        <a href="a" className='menu'>{data[language].whoIam}</a>
-        <a href="b" className='menu'>{data[language].skills}</a>
-        <a href="c" className='menu'>{data[language].project}</a>
-        <a href="d" className='menu'>{data[language].contact}</a>
+        <a href="#about" className='menu'>{data[language].whoIam}</a>
+        <a href="#skills" className='menu'>{data[language].skills}</a>
+        <a href="#projects" className='menu'>{data[language].project}</a>
+        <a href="#contact" className='menu'>{data[language].contact}</a>
       </nav>
     </header>
   )
 }
 
-export default Header
+export default Header;

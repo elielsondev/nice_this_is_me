@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
+import About from './components/About';
 import Header from './components/Header';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 import Welcome from './components/Welcome';
 
 function App() {
@@ -10,6 +13,9 @@ function App() {
     <div>
       <Header language={ language } setLanguage={ setLanguage } />
       <Welcome language={ language } />
+      <About language={language} />
+      <Skills language={language} />
+      <Projects language={language} />
     </div>
   )
 }
