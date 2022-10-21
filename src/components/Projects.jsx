@@ -14,7 +14,7 @@ function Projects({language}) {
                     src=""
                     alt="foto do projeto"
                     />
-                    <p>Nome do projeto</p>
+                    <h4>Nome do projeto</h4>
                 </div>
             </article>
         </section>
