@@ -241,6 +241,10 @@ footer h5 {
     margin-top: 100px;
     width: 15em;
   }
+
+  footer h5 {
+    padding-bottom: 40px;
+  }
 }
 
 @media (max-width: 660px) {
