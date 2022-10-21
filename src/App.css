@@ -100,7 +100,7 @@ White: #FFFFFF
 }
 
 #nameWelcome {
-  font-size: 4em;
+  font-size: 5em;
   color: #FCA311;
 }
 
@@ -140,6 +140,8 @@ White: #FFFFFF
   font-size: 2.5em;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 70px;
+  margin-bottom: 55px;
   line-height: 37px;
   text-align: justify;
 }
@@ -204,7 +206,7 @@ footer h5 {
   font-family: 'Amatic SC', cursive;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
   .header {
     display: flex;
     flex-wrap: wrap;
@@ -231,15 +233,17 @@ footer h5 {
   }
   
   #profession {
-    font-size: 1.1em;
+    font-size: 1em;
     font-family: 'Silkscreen', cursive;
     color: #14213d;
   }
 
   #profile {
     border-radius: 50%;
-    margin-top: 100px;
-    width: 15em;
+    margin-top: 150px;
+    margin-top: 150px;
+    margin-bottom: -150px;
+    width: 200px;
   }
 
   footer h5 {
@@ -282,19 +286,10 @@ footer h5 {
     font-family: 'Sacramento', cursive;
     margin-bottom: -0.3em;
   }
-  
-  #nameWelcome {
-    font-size: 2.3em;
-    color: #FCA311;
-  }
-  
-  #profession {
-    font-size: 0.8em;
-    margin-bottom: -50px;
-  }
 
   #profile {
     width: 12em;
+    margin-top: 100px;
     margin-bottom: -70px;
   }
 

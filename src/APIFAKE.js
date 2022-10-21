@@ -39,7 +39,7 @@ const data = [
         flagName: 'United Kingdom',
         welcome: 'Hi, I am',
         profession: 'Software developer - Front end',
-        description: `ʻI am known as Eli / Leo, even though I come from a humble family, I always had the dream
+        description: `I'm known as Eli / Leo, even though I come from a humble family, I always had the dream
         of working with technology and knowing how things worked, how the commands were made so that the computer
         could understand, but only when I was 30 years old I got the opportunity joining a web development course
         at Trybe, where I was able to learn both front-end and back-end languages ​​and computer science, the process
@@ -67,7 +67,7 @@ const data = [
         flagName: 'Spanish',
         welcome: 'Hola soy yo',
         profession: 'Desenrrollador de software - Interfaz',
-        description: `Me conocen como Eli/Leo, aunque vengo de una familia humilde, siempre tuve el sueño de
+        description: `Soy conocido como Eli/Leo, aunque vengo de una familia humilde, siempre tuve el sueño de
         trabajar con tecnología y saber cómo funcionaban las cosas, cómo se hacían los comandos para que la
         computadora pudiera entender, pero solo cuando tenía 30 años años tuve la oportunidad de ingresar a
         un curso de desarrollo web en Trybe, donde pude aprender lenguajes tanto front-end como back-end e
