@@ -150,6 +150,15 @@ White: #FFFFFF
   justify-content: center;
 }
 
+#soft {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -25px;
+  margin-bottom: -20px;
+  justify-content: center;
+  padding: 30px;
+}
+
 .tec {
   text-align: center;
   padding: 5px;
