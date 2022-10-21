@@ -11,13 +11,13 @@ function Skills({ language }) {
             <h1 className='topicsStyle'>{data[language].skills}</h1>
             <article id='skillArea'>
               { tecnology.map(({ image, name }) => (
-                <div id="tec">
+                <div className="tec">
                   <img
                     src={image}
                     alt={name}
-                    id='imgTec'
+                    className='imgTec'
                   />
-                <h4 id='nameTec'>{name}</h4>
+                <h4 className='nameTec'>{name}</h4>
             </div>
               )) }
             </article>

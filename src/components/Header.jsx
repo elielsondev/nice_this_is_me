@@ -11,7 +11,11 @@ function Header({ language, setLanguage }) {
         <img src={ data[2].flagUrl } alt="ES" onClick={ () => setLanguage(2) } className='flag' />
       </nav>
     
-      <h1 className='name'>{data[language].name}</h1>
+      <h1 className='name'>
+        <a className='name' href="#sectionWelcome">
+          {data[language].name}
+        </a>
+      </h1>
       
       <nav className='box-menu'>
         <a href="#about" className='menu'>{data[language].whoIam}</a>
