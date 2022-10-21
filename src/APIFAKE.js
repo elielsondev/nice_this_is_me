@@ -29,7 +29,7 @@ const data = [
             "Planejamento",
             "Trabalho em equipe"
         ],
-        footer: 'Criado com muito carinho, amor, dedicação, React.js - By Elielson'
+        footer: 'Criado com muito carinho, amor, dedicação, React.js - Por Elielson'
     },
     {
         language: 'English',
