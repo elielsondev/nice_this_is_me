@@ -183,6 +183,18 @@ White: #FFFFFF
   margin: 40px;
 }
 
+footer h5 {
+  text-align: center;
+  background-color: #14213d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 0;
+  color: #E5E5E5;
+  font-family: 'Amatic SC', cursive;
+}
+
 @media (max-width: 900px) {
   .header {
     display: flex;
