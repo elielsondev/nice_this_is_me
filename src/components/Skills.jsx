@@ -11,12 +11,7 @@ function Skills({ language }) {
             <h1 className='topicsStyle'>{data[language].skills}</h1>
             <article id='skillArea'>
               <div id='soft'>
-                <h4 className='tec'>Humildade</h4>
-                <h4 className='tec'>Proatividade</h4>
-                <h4 className='tec'>Comunicação</h4>
-                <h4 className='tec'>Organização</h4>
-                <h4 className='tec'>Planejamento</h4>
-                <h4 className='tec'>Trabalho em equipe</h4>
+                { data[language].softSkills.map((skill) => <h3 className='tec'>{skill}</h3>) }
               </div>
               { tecnology.map(({ image, name }) => (
                 <div className="tec">

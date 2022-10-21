@@ -21,6 +21,15 @@ const data = [
         também fiz Back-end e Ciência da Computação nesse tempo aprendi desenvolvendo projetos para aplicar o conhecimento na
         prática, estou em transição de carreira e me sinto preparado para aprender muito mais no ambiente de trabalho, acredito
         que o conhecimento é tudo e a troca de aprendizado é fundamental para o desenvolvimento de todos.`,
+        softSkills: [
+            "Humildade",
+            "Proatividade",
+            "Comunicação",
+            "Organização",
+            "Planejamento",
+            "Trabalho em equipe"
+        ],
+        footer: 'Criado com muito carinho, amor, dedicação, React.js - By Elielson'
     },
     {
         language: 'English',
@@ -44,6 +53,15 @@ const data = [
         Science During that time I learned by developing projects to apply the knowledge in practice, I am in a career
         transition and I feel prepared to learn much more in the work environment, I believe that knowledge is everything
         and the exchange of learning is fundamental for everyone's development .`,
+        softSkills: [
+            "Humility",
+            "Proactivity",
+            "Communication",
+            "Organization",
+            "Planning",
+            "Teamwork"
+        ],
+        footer: 'Created with great care, love, dedication, React.js - By Elielson'
     },
     {
         language: 'Espanõl',
@@ -66,6 +84,15 @@ const data = [
         Informática en ese momento aprendí desarrollando proyectos para aplicar los conocimientos en la práctica,Estoy en transición de
         carrera y me siento preparado para aprender mucho más en el ambiente laboral, creo que el conocimiento lo es todo y el intercambio
         de aprendizaje es fundamental para el desarrollo de todos.`,
+        softSkills: [
+            "Humildad",
+            "Proactividad",
+            "Comunicación",
+            "Organización",
+            "Planificación",
+            "Trabajo en equipo"
+        ],
+        footer: 'Creado con gran cuidado, amor, dedicación, React.js - Por Elielson'
     }
 ];
 

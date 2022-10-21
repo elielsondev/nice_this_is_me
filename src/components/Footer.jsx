@@ -1,9 +1,10 @@
 import React from 'react';
+import data from '../APIFAKE';
 
-function Footer() {
+function Footer({ language }) {
   return (
     <footer>
-        <h5>Criado com muito carinho, amor, dedicação, React.js - By Elielson</h5>
+        <h5>{data[language].footer}</h5>
     </footer>
   )
 }
