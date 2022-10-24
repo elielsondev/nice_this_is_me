@@ -206,6 +206,40 @@ footer h5 {
   font-family: 'Amatic SC', cursive;
 }
 
+#myProjects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#myArticles {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product {
+  text-align: center;
+  text-decoration: none;
+  color: #FCA311;
+  font-family: 'Silkscreen', cursive;
+}
+
+.product img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.article {
+  text-align: center;
+  text-decoration: none;
+  color: #FCA311;
+  font-family: 'Silkscreen', cursive;
+}
+
+.article img {
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
 @media (max-width: 940px) {
   .header {
     display: flex;
