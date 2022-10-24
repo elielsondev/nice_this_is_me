@@ -30,9 +30,11 @@
 
 ### About
    No componente About:
-   Falo um pouco sobre mim, sobre minha história e de como eu sempre fui apaixonado por tecnologia.
+   Descrevo um pouco sobre mim, sobre minha história e de como eu sempre fui apaixonado por tecnologia.
 
 ### Skills
+   No componente Skills:
+   Cito minhas habilidades comportamentais (Soft-skills) e sobre as Hard-skills que possuo dominio.
 
 ### Projects
 
