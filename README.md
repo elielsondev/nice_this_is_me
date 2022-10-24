@@ -29,6 +29,8 @@
   *Obs: Com a responsividade existem resoluções onde a minha foto fica acima e a apresentação com o meu nome ficam abaixo da foto.*
 
 ### About
+   No componente About:
+   Falo um pouco sobre mim, sobre minha história e de como eu sempre fui apaixonado por tecnologia.
 
 ### Skills
 
