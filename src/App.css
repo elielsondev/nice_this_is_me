@@ -347,6 +347,38 @@ footer h5 {
   #nameTec {
     font-size: 12px;
   }
+
+  #myProjects {
+    flex-wrap: wrap;
+  }
+  
+  #myArticles {
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    text-align: center;
+    text-decoration: none;
+    color: #FCA311;
+    font-family: 'Silkscreen', cursive;
+  }
+  
+  .product img {
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .article {
+    text-align: center;
+    text-decoration: none;
+    color: #FCA311;
+    font-family: 'Silkscreen', cursive;
+  }
+  
+  .article img {
+    border-radius: 20px;
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 432px) {
