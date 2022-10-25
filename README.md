@@ -1,6 +1,6 @@
 # Portifólio de Elielson do Nascimento Ramos
 
-## A criação do nosso projeto é 100% em React.js, utilizamos functions(React Hooks) para a elaboração do mesmo
+## A criação do projeto em React.js, utilização de functions(React Hooks) para a elaboração do mesmo.
 
 <a href="https://elielsonnascimento.vercel.app/" target="_blank">
   <img 
