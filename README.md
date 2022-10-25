@@ -2,6 +2,13 @@
 
 ## A criação do nosso projeto é 100% em React.js, utilizamos functions(React Hooks) para a elaboração do mesmo
 
+<a href="https://elielsonnascimento.vercel.app/" target="_blank">
+  <img 
+    src="https://user-images.githubusercontent.com/83602931/197848020-b95a7e9b-2bfd-4954-9b1f-1ffdcb36de6c.png"
+    alt="Meu portfólio"
+  />
+</a>
+
 **Criei componentes específicos para cada área pertinente ao conteúdo, como:**
 
     - Header
@@ -37,7 +44,8 @@
    Cito minhas habilidades comportamentais (Soft-skills) e sobre as Hard-skills que possuo dominio.
 
 ### Projects
-   ...
+   No componente Projects:
+   Foi implementado as imagens dos projetos e artigos e um link direcionando respectivamente para cada um deles.
    
 ### Contact
    No componentr Contact:
