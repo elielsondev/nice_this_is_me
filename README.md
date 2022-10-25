@@ -50,7 +50,11 @@
 ### Contact
    No componentr Contact:
    Adiciono alguns links para canais onde é possível entrar em contato comigo ou conhecer um pouco mais sobre meu perfil, os links referidos são para LinkedIn, GitHub, WhatsApp e Gmail respectivamente.
+   
    Lembrando que para o email, foi criado um formulário onde a pessoa pode mandar a mensagem diretamente para o meu email.
+   
+   OBS: Formulário criado usando o [Jotform](https://www.jotform.com/myforms/)
+   
 ### Footer
    No componente Footer:
    Foi elaborando com simplicidade e objetividade de como o projeto foi elaborado.
