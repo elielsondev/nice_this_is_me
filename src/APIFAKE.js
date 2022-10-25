@@ -11,7 +11,7 @@ const data = [
         welcome: 'Oi, eu sou',
         profession: 'Desenvolvedor de Software - Front-End',
         description: `Sou conhecido como Eli / Leo, mesmo sendo de família humilde sempre tive o sonho
-        de trabalhar com tecnologia e saber como as coisas funcionavam, como era que eram feitos os comandos
+        de trabalhar com tecnologia e saber como as coisas funcionavam, e como eram feitos os comandos
         para que o computador pudesse entender, porém somente aos 30 anos obtive a oportunidade de ingressar
         num curso de desenvolvimento web na Trybe, onde pude aprender tanto linguagens de front-end, quanto de
         back-end e ciência da computação, não foi fácil o processo, pois tive que realizar vários projetos na 
