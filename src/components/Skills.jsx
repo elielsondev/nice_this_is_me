@@ -11,9 +11,12 @@ function Skills({ language }) {
             <h1 className='topicsStyle'>{data[language].skills}</h1>
             {/* <article id='skillArea'> */}
 
+              <h2 className='titleSkills'>Soft-Skills</h2>
               <div id='soft'>
                 { data[language].softSkills.map((skill) => <h3 className='tec'>{skill}</h3>) }
               </div>
+
+              <h2 className='titleSkills'>Hard-Skills</h2>
               <div id='hard'>
                 { tecnology.map(({ image, name }) => (
                   <div className="tec">

@@ -136,7 +136,7 @@ White: #FFFFFF
 
 #descriptionAbout {
   font-family: 'Amatic SC', cursive;
-  font-weight: 900;
+  font-weight: 300;
   color: #ffffff;
   font-size: 2.5em;
   margin-left: 10%;
@@ -145,6 +145,13 @@ White: #FFFFFF
   margin-bottom: 55px;
   line-height: 37px;
   text-align: justify;
+}
+
+.titleSkills {
+  color:#E5E5E5;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 40px;
 }
 
 #hard {
@@ -156,8 +163,8 @@ White: #FFFFFF
 #soft {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -25px;
-  margin-bottom: -20px;
+  margin-top: -30px;
+  margin-bottom: 15px;
   justify-content: center;
   padding: 30px;
 }
@@ -231,7 +238,7 @@ footer h5 {
 
 .product img {
   border-radius: 50%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .product img:hover {
