@@ -135,7 +135,8 @@ White: #FFFFFF
 }
 
 #descriptionAbout {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
   color: #ffffff;
   font-size: 2.5em;
   margin-left: 10%;
@@ -146,7 +147,7 @@ White: #FFFFFF
   text-align: justify;
 }
 
-#skillArea {
+#hard {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -168,7 +169,7 @@ White: #FFFFFF
   color: #E5E5E5;
   background-color:#14213d;
   border-radius: 20px;
-  font-family: 'Silkscreen', cursive;
+  font-family: 'Amatic SC', cursive;
   text-decoration: none;
   cursor: pointer;
 }
@@ -184,7 +185,7 @@ White: #FFFFFF
 }
 
 .nameTec {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 #myNet {
@@ -220,7 +221,12 @@ footer h5 {
   text-align: center;
   text-decoration: none;
   color: #FCA311;
-  font-family: 'Silkscreen', cursive;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+}
+
+.product:hover {
+  color: #ffffff;
 }
 
 .product img {
@@ -228,16 +234,29 @@ footer h5 {
   margin-top: 20px;
 }
 
+.product img:hover {
+  box-shadow: 5px 5px 5px #ffffff;
+}
+
 .article {
   text-align: center;
   text-decoration: none;
   color: #FCA311;
-  font-family: 'Silkscreen', cursive;
+  font-size: 1.7em;
+  font-family: 'Amatic SC', cursive;
 }
 
 .article img {
   border-radius: 20px;
   margin-top: 10px;
+}
+
+.article:hover {
+  color: #ffffff;
+}
+
+.article img:hover {
+  box-shadow: 5px 5px 5px #ffffff;
 }
 
 @media (max-width: 940px) {
@@ -257,7 +276,6 @@ footer h5 {
   #welcome {
     font-size: 3.5em;
     color: #E5E5E5;
-    font-family: 'Sacramento', cursive;
     margin-top: 100px;
   }
   
@@ -268,7 +286,6 @@ footer h5 {
   
   #profession {
     font-size: 1em;
-    font-family: 'Silkscreen', cursive;
     color: #14213d;
   }
 
@@ -316,8 +333,6 @@ footer h5 {
 
   #welcome {
     font-size: 2.5em;
-    color: #E5E5E5;
-    font-family: 'Sacramento', cursive;
     margin-bottom: -0.3em;
   }
 
@@ -336,7 +351,7 @@ footer h5 {
     line-height: 25px;
   }
 
-  #skillArea {
+  #hard {
     justify-content: center;
   }
 
@@ -360,7 +375,6 @@ footer h5 {
     text-align: center;
     text-decoration: none;
     color: #FCA311;
-    font-family: 'Silkscreen', cursive;
   }
   
   .product img {
@@ -372,7 +386,6 @@ footer h5 {
     text-align: center;
     text-decoration: none;
     color: #FCA311;
-    font-family: 'Silkscreen', cursive;
   }
   
   .article img {
