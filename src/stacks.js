@@ -59,6 +59,14 @@ const tecnology = [
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg',
         name: 'Python',
     },
+    {
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg',
+        name: 'Java',
+    },
+    {
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg',
+        name: 'Spring',
+    }
     
 ]
 
