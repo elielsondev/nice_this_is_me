@@ -10,14 +10,11 @@ const data = [
         flagName: 'Brasil',
         welcome: 'Oi, eu sou',
         profession: 'Desenvolvedor de Software - Front-End',
-        description: `Sou conhecido como Eli / Leo, mesmo sendo de família humilde sempre tive o sonho
-        de trabalhar com tecnologia e saber como as coisas funcionavam, e como eram feitos os comandos
-        para que o computador pudesse entender, porém somente aos 30 anos obtive a oportunidade de ingressar
-        num curso de desenvolvimento web na Trybe, onde pude aprender tanto linguagens de front-end, quanto de
-        back-end e ciência da computação, não foi fácil o processo, pois tive que realizar vários projetos na 
-        prática como trabalhar com cada linguagem ou frameworks ensinados, entretanto foram esses desafios que
-        me ajudaram a está apto para atuar no mercado de trabalho e hoje me sinto realizado por essa conquista
-        e sempre busco aprender um pouco mais a cada dia.`,
+        description: `Que bom ter você aqui, antes de falar um pouco sobre mim pode me chamar de Eli: Pois bem, estou
+        em transição de carreira e em 2022 eu conclui o curso de desenvolvimento web fuul stack na Trybe, foram mais de 
+        1500 horas de conteudos teoricos e muita prática, como Fundamentos Web, Front-end, Back-End, Ciência da Computação
+        e as tão importantes Soft-Skills, hoje me sinto pronto para realizar um sonho antigo, que é de trabalhar com
+        Desenvolvimento de softwares.`,
         softSkills: [
             "Humildade",
             "Proatividade",
@@ -39,13 +36,11 @@ const data = [
         flagName: 'United Kingdom',
         welcome: 'Hi, I am',
         profession: 'Software developer - Front end',
-        description: `I'm known as Eli / Leo, even though I come from a humble family, I always had the dream
-        of working with technology and knowing how things worked, how the commands were made so that the computer
-        could understand, but only when I was 30 years old I got the opportunity joining a web development course
-        at Trybe, where I was able to learn both front-end and back-end languages ​​and computer science, the process
-        was not easy, as I had to carry out several projects in practice such as working with each language or
-        frameworks taught, however it was these challenges that helped me to be able to work in the job market and
-        today I feel fulfilled by this achievement and I always seek to learn a little more every day.`,
+        description: `It's good to have you here, before talking a little about me you can call me Eli: Well, I'm
+        in career transition and in 2022 I completed the full stack web development course at Trybe, there were more than
+        1500 hours of theoretical content and a lot of practice, such as Web Fundamentals, Front-end, Back-End, Computer Science
+        and the so important Soft-Skills, today I feel ready to fulfill an old dream, which is to work with
+        Software development.`,
         softSkills: [
             "Humility",
             "Proactivity",
@@ -63,17 +58,15 @@ const data = [
         skills: 'Habilidades',
         project: 'Proyectos',
         contact: 'Contacto',
-        flagUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg',
+        flagUrl:  'https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg',
         flagName: 'Spanish',
         welcome: 'Hola soy yo',
         profession: 'Desenrrollador de software - Interfaz',
-        description: `Soy conocido como Eli/Leo, aunque vengo de una familia humilde, siempre tuve el sueño de
-        trabajar con tecnología y saber cómo funcionaban las cosas, cómo se hacían los comandos para que la
-        computadora pudiera entender, pero solo cuando tenía 30 años años tuve la oportunidad de ingresar a
-        un curso de desarrollo web en Trybe, donde pude aprender lenguajes tanto front-end como back-end e
-        informática, el proceso no fue fácil, ya que tuve que realizar varios proyectos en práctica como trabajar
-        con cada lenguaje o framework enseñado, sin embargo fueron estos retos los que me ayudaron a poder trabajar
-        en el mercado laboral y hoy me siento realizado por este logro y siempre busco aprender un poco más cada día.`,
+        description: `Que bueno tenerte por aqui, antes de hablar un poco de mi puedes llamarme Eli: Bueno, yo soy
+        en transición de carrera y en 2022 completé el curso de desarrollo web full stack en Trybe, había más de
+        1500 horas de contenido teórico y mucha práctica, como Fundamentos Web, Front-end, Back-End, Informática
+        y las Soft-Skills tan importantes, hoy me siento lista para cumplir un viejo sueño, que es trabajar con
+        Desarrollo de software.`,
         softSkills: [
             "Humildad",
             "Proactividad",

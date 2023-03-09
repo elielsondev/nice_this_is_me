@@ -1,6 +1,6 @@
 import React from 'react';
 import data from '../APIFAKE';
-import tictactoe from '../components/images/tictactoe.gif';
+import password_generator from '../components/images/gerador_de_senhas_aleatorias.gif';
 import lottery from '../components/images/lottery.gif';
 import calculator from '../components/images/calculator.gif';
 import reactredux from '../components/images/reactredux.png';
@@ -16,13 +16,13 @@ function Projects({language}) {
             <article>
               <div id='myProjects'>
                 <a 
-                  href="https://elielsondev.github.io/tic-tac-toe/"
+                  href="https://geradordesenha.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className='product'
                 >
-                  <img src={tictactoe} alt="Jogo da Velha" width='200px' />
-                  <p>Tic - Tac - Toe</p>
+                  <img src={password_generator} alt="Jogo da Velha" width='200px' />
+                  <p>Gerador de Senhas</p>
                 </a>
 
                 <a 
