@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../APIFAKE';
 import password_generator from '../components/images/gerador_de_senhas_aleatorias.gif';
-import lottery from '../components/images/lottery.gif';
+import desenvolvendo from '../components/images/desenvolvendo.png';
 import calculator from '../components/images/calculator.gif';
 import reactredux from '../components/images/reactredux.png';
 import javascriptandes6 from '../components/images/javascriptandes6.png';
@@ -31,8 +31,8 @@ function Projects({language}) {
                   rel="noopener noreferrer"
                   className='product'
                 > 
-                  <img src={lottery} alt="Jogo da Velha" width='200px' />
-                  <p>Lottery</p>
+                  <img src={desenvolvendo} alt="Jogo da Velha" width='200px' />
+                  <p>Em manutenção</p>
                 </a>
 
                 <a 
