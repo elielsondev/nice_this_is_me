@@ -253,20 +253,22 @@ footer h5 {
   color: #FCA311;
   font-size: 1.7em;
   font-family: 'Amatic SC', cursive;
+  margin: 10px;
 }
 
 .article img {
   border-radius: 20px;
-  margin-top: 10px;
 }
 
 .article:hover {
   color: #ffffff;
+  margin: 10px;
 }
 
 .article img:hover {
   box-shadow: 5px 5px 5px #ffffff;
 }
+
 
 @media (max-width: 940px) {
   .header {

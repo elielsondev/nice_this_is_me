@@ -5,6 +5,7 @@ import desenvolvendo from '../components/images/desenvolvendo.png';
 import calculator from '../components/images/calculator.gif';
 import reactredux from '../components/images/reactredux.png';
 import javascriptandes6 from '../components/images/javascriptandes6.png';
+import java from '../components/images/Java.jpg';
 import '../App.css';
 
 function Projects({language}) {
@@ -21,7 +22,7 @@ function Projects({language}) {
                   rel="noopener noreferrer"
                   className='product'
                 >
-                  <img src={password_generator} alt="Jogo da Velha" width='200px' />
+                  <img src={password_generator} alt="Gerador de Senha" width='200px' />
                   <p>Gerador de Senhas</p>
                 </a>
 
@@ -31,7 +32,7 @@ function Projects({language}) {
                   rel="noopener noreferrer"
                   className='product'
                 > 
-                  <img src={desenvolvendo} alt="Jogo da Velha" width='200px' />
+                  <img src={desenvolvendo} alt="em desenvolvimento" width='200px' />
                   <p>Em manutenção</p>
                 </a>
 
@@ -41,7 +42,7 @@ function Projects({language}) {
                   rel="noopener noreferrer"
                   className='product'
                 >
-                  <img src={calculator} alt="Jogo da Velha" width='200px' />
+                  <img src={calculator} alt="Calculadora" width='200px' />
                   <p>Calculator</p> 
                 </a>
               </div>
@@ -53,7 +54,7 @@ function Projects({language}) {
                   rel="noopener noreferrer"
                   className='article'
                 >
-                  <img src={reactredux} alt="Jogo da Velha" width='270px' />
+                  <img src={reactredux} alt="React / Redux" width='200px' height='180px' />
                   <p>Artigo - Redux in React.js Baby Steps</p>
                 </a>
 
@@ -63,8 +64,18 @@ function Projects({language}) {
                   rel="noopener noreferrer"
                   className='article'
                 >
-                  <img src={javascriptandes6} alt="Jogo da Velha" width='270px' />
+                  <img src={javascriptandes6} alt="Starting JavaScript" width='200px' height='180px' />
                   <p>Artigo - Starting JavaScript</p>   
+                </a>
+
+                <a 
+                  href="https://github.com/elielsondev/trilha-java-basico"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className='article'
+                >
+                  <img src={java} alt="Trilha Java Básico" width='200px' height='180px' />
+                  <p>Artigo - Trilha Java Básico</p>   
                 </a>
               </div>
             </article>
