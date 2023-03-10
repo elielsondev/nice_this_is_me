@@ -1,6 +1,8 @@
 import React from 'react';
 import data from '../APIFAKE';
 import '../App.css';
+import curriculo from './docs/ElielsonNascimento.pdf';
+import iconDownload from './images/download_icon.png';
 
 function Header({ language, setLanguage }) {
   return (
@@ -22,6 +24,12 @@ function Header({ language, setLanguage }) {
         <a href="#skills" className='menu'>{data[language].skills}</a>
         <a href="#projects" className='menu'>{data[language].project}</a>
         <a href="#contact" className='menu'>{data[language].contact}</a>
+
+        <div id='download-cv'>
+          <a href={curriculo} download="curriculo_elielson_desenvolvedor_fullStack">
+          <img src={iconDownload} alt="Download CV" />
+        </a>
+      </div>
       </nav>
     </header>
   )

@@ -269,6 +269,15 @@ footer h5 {
   box-shadow: 5px 5px 5px #ffffff;
 }
 
+.box-language img {
+  cursor: pointer;
+}
+
+#download-cv img {
+  width: 30px;
+  margin: 5px;
+  text-decoration: none;
+}
 
 @media (max-width: 940px) {
   .header {
