@@ -5,26 +5,32 @@
     <link rel="icon" href="favicon .ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
 
     <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&family=Sacramento&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&family=Sacramento&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
 
     <!--Formulário Jotform-->
     <script src="https://form.jotform.com/static/feedback2.js"></script>
     <script>
       new JotformFeedback({
-        
-    type: false,
-    width: 800,
-    height: 500,
-    fontColor: "#14213D",
-    background: "#FCA311",
-    isCardForm: false,
-    formId: "222927711736056"
-    ,
+        type: false,
+        width: 800,
+        height: 500,
+        fontColor: "#14213D",
+        background: "#FCA311",
+        isCardForm: false,
+        formId: "222927711736056",
         buttonText: "MANDAR MENSAGEM",
         buttonSide: "bottom",
         buttonAlign: "right",
@@ -36,5 +42,16 @@
   </head>
   <body>
     <div id="root"></div>
+    <!--VLibras-->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
   </body>
 </html>
