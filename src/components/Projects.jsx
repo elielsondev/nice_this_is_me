@@ -1,11 +1,10 @@
 import React from 'react';
 import data from '../APIFAKE';
-import password_generator from '../components/images/gerador_de_senhas_aleatorias.gif';
-import desenvolvendo from '../components/images/desenvolvendo.png';
-import calculator from '../components/images/calculator.gif';
+import  canoe_digital_fm from '../components/images/canoe_digital_fm.gif';
+import gerador_de_senha from '../components/images/gerador_de_senha.gif';
+import desenvolvendo from '../components/images/desenvolvendo.gif';
 import reactredux from '../components/images/reactredux.png';
 import javascriptandes6 from '../components/images/javascriptandes6.png';
-import java from '../components/images/Java.jpg';
 import '../App.css';
 
 function Projects({language}) {
@@ -17,23 +16,23 @@ function Projects({language}) {
             <article>
               <div id='myProjects'>
                 <a 
-                  href="https://geradordesenha.vercel.app/"
+                  href="https://canoedigital.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className='product'
                 >
-                  <img src={password_generator} alt="Gerador de Senha" width='200px' />
-                  <p>Gerador de Senhas</p>
+                  <img src={canoe_digital_fm} alt="Gerador de Senha" width='200px' />
+                  <p>Canoé Digital FM</p>
                 </a>
 
                 <a 
-                  href="https://geradordejogomegasena.vercel.app/"
+                  href="https://geradordesenha.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className='product'
                 > 
-                  <img src={desenvolvendo} alt="em desenvolvimento" width='200px' />
-                  <p>Em manutenção</p>
+                  <img src={gerador_de_senha} alt="em desenvolvimento" width='200px' />
+                  <p>Gerador de Senhas</p>
                 </a>
 
                 <a 
@@ -42,8 +41,8 @@ function Projects({language}) {
                   rel="noopener noreferrer"
                   className='product'
                 >
-                  <img src={calculator} alt="Calculadora" width='200px' />
-                  <p>Calculator</p> 
+                  <img src={desenvolvendo} alt="Calculadora" width='200px' />
+                  <p>...</p> 
                 </a>
               </div>
 
@@ -66,16 +65,6 @@ function Projects({language}) {
                 >
                   <img src={javascriptandes6} alt="Starting JavaScript" width='200px' height='180px' />
                   <p>Artigo - Starting JavaScript</p>   
-                </a>
-
-                <a 
-                  href="https://github.com/elielsondev/trilha-java-basico"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className='article'
-                >
-                  <img src={java} alt="Trilha Java Básico" width='200px' height='180px' />
-                  <p>Artigo - Trilha Java Básico</p>   
                 </a>
               </div>
             </article>

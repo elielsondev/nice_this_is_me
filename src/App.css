@@ -239,8 +239,8 @@ footer h5 {
 }
 
 .product img {
-  border-radius: 50%;
-  margin-top: 10px;
+  border-radius: 15%;
+  margin-top: 20px;
 }
 
 .product img:hover {
@@ -257,6 +257,7 @@ footer h5 {
 }
 
 .article img {
+  width: 45vh;
   border-radius: 20px;
 }
 
@@ -395,11 +396,6 @@ footer h5 {
     text-align: center;
     text-decoration: none;
     color: #FCA311;
-  }
-  
-  .product img {
-    border-radius: 50%;
-    margin-top: 20px;
   }
   
   .article {
