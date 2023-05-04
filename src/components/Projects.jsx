@@ -53,7 +53,7 @@ function Projects({language}) {
                   rel="noopener noreferrer"
                   className='article'
                 >
-                  <img src={reactredux} alt="React / Redux" width='200px' height='180px' />
+                  <img src={reactredux} alt="React / Redux" className='articles' />
                   <p>Artigo - Redux in React.js Baby Steps</p>
                 </a>
 
@@ -63,7 +63,7 @@ function Projects({language}) {
                   rel="noopener noreferrer"
                   className='article'
                 >
-                  <img src={javascriptandes6} alt="Starting JavaScript" width='200px' height='180px' />
+                  <img src={javascriptandes6} alt="Starting JavaScript" className='articles' />
                   <p>Artigo - Starting JavaScript</p>   
                 </a>
               </div>
