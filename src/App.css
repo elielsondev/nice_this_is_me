@@ -257,7 +257,7 @@ footer h5 {
 }
 
 .article img {
-  width: 45vh;
+  width: 30vw;
   border-radius: 20px;
 }
 
@@ -400,11 +400,13 @@ footer h5 {
   
   .article {
     text-align: center;
+    flex-wrap: wrap;
     text-decoration: none;
     color: #FCA311;
   }
   
   .article img {
+    width: 40vh;
     border-radius: 20px;
     margin-top: 10px;
   }
