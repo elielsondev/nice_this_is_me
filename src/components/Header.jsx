@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../APIFAKE';
 import '../App.css';
-import curriculo from './docs/ElielsonNascimento.pdf';
+import curriculo from './docs/ElielsonNascimento2023.2.pdf';
 import iconDownload from './images/download_icon.png';
 
 function Header({ language, setLanguage }) {
