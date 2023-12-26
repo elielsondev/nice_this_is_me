@@ -9,11 +9,6 @@ body {
 }
 
 /* 
-font-family: 'Amatic SC', cursive;
-font-family: 'Pacifico', cursive;
-font-family: 'Sacramento', cursive;
-font-family: 'Silkscreen', cursive;
-
 COLORS PROJECT:
 Black: #000000
 Dark Blue: #14213D
@@ -40,7 +35,7 @@ White: #FFFFFF
 .name {
   align-items: center;
   display: flex;
-  font-family: 'Amatic SC', cursive;
+  font-family: sans-serif;
   font-size: 35px;
   font-weight: 800;
   margin-top: 5px;
@@ -64,16 +59,16 @@ White: #FFFFFF
   border: 2px solid #FCA311;
   border-radius: 20px;
   color: #14213d;
-  font-family: 'Silkscreen', cursive;
+  font-family: sans-serif;
   font-size: 16px;
   margin: 3px;
-  padding: 2px;
+  padding: 3px;
   text-decoration: none;
 }
 
 .menu:hover {
   background-color: #FCA311;
-  color: #ffffff;
+  border: 2px solid #E5E5E5;
 }
 
 .flag {
@@ -106,7 +101,7 @@ White: #FFFFFF
 
 #profession {
   font-size: 1.27em;
-  font-family: 'Silkscreen', cursive;
+  font-family: sans-serif;
   color: #14213d;
   background-color:#ffffff;
   text-align: center;
@@ -130,16 +125,16 @@ White: #FFFFFF
   color: #E5E5E5;
   text-align: center;
   margin-top: 30px;
-  font-family: 'Silkscreen', cursive;
+  font-family: sans-serif;
   background-color: #FCA311;
   color: #14213d;
 }
 
 #descriptionAbout {
-  font-family: 'Amatic SC', cursive;
-  font-weight: 300;
+  font-family: sans-serif;
+  font-weight: 100;
   color: #ffffff;
-  font-size: 2.5em;
+  font-size: 2em;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 70px;
@@ -173,12 +168,13 @@ White: #FFFFFF
 
 .tec {
   text-align: center;
+  font-size: 1.5em;
   padding: 5px;
   margin: 2px;
   color: #E5E5E5;
   background-color:#14213d;
   border-radius: 20px;
-  font-family: 'Amatic SC', cursive;
+  font-family: sans-serif;
   text-decoration: none;
   cursor: pointer;
 }
@@ -194,7 +190,7 @@ White: #FFFFFF
 }
 
 .nameTec {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #myNet {
@@ -213,7 +209,7 @@ footer h5 {
   font-weight: 900;
   margin-bottom: 0;
   color: #E5E5E5;
-  font-family: 'Amatic SC', cursive;
+  font-family: sans-serif;
 }
 
 #myProjects {
@@ -230,8 +226,8 @@ footer h5 {
   text-align: center;
   text-decoration: none;
   color: #FCA311;
-  font-size: 2em;
-  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 .product:hover {
@@ -251,13 +247,13 @@ footer h5 {
   text-align: center;
   text-decoration: none;
   color: #FCA311;
-  font-size: 1.7em;
-  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  font-family: sans-serif;
   margin: 10px;
 }
 
 .article img {
-  width: 30vw;
+  width: 12em;
   border-radius: 20px;
 }
 
